@@ -1,6 +1,6 @@
 # 🚀 Git & GitHub Workshop Page 🚀
 
-**(Your Personal Project - Git & GitHub Workshop)**
+**(Git & GitHub Workshop webpage)**
 
 ## 🌟 Project Overview 🌟
 
