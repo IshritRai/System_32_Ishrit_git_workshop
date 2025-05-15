@@ -51,5 +51,3 @@ This workshop page and its materials are being developed by:
 Sincere gratitude is extended to:
 
 * Anyone who contributes to or participates in the workshop!
-* The creators of the original template which provided a foundational structure.
-* *Optional: Add any specific individuals or resources you'd like to thank.*
