@@ -51,13 +51,10 @@ body {
   border: none;
 }
 
-
-/* Replace with this */
 .btn-primary:hover {
   background-color: var(--primary-hover);
   box-shadow: 0 0 20px rgba(117, 70, 255, 0.8);
   transform: translateY(-2px);
-
 }
 
 .btn-outline {
@@ -361,8 +358,6 @@ nav a:hover {
   background-color: rgba(255, 255, 255, 0.02);
 }
 
-
-/* Replace with this */
 .faq-item:hover .faq-answer {
   padding: 1.5rem;
   max-height: 300px;
@@ -371,6 +366,50 @@ nav a:hover {
 
 .faq-item:hover .faq-question::after {
   content: "-";
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: var(--secondary);
+  border-radius: 1rem;
+  padding: 4rem 0;
+  margin-top: 2rem;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background-color: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 16px rgba(117,70,255,0.07);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(117,70,255,0.13);
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  color: var(--foreground);
+  margin-bottom: 1.2rem;
+  font-style: italic;
+}
+
+.testimonial-author {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: right;
 }
 
 /* Footer */
